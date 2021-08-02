@@ -55,4 +55,12 @@ dependencies {
     //ViewModel
     implementation "androidx.lifecycle:lifecycle-extensions:2.0.0"
 
+    //paging
+    implementation "androidx.paging:paging-runtime-ktx:2.1.0"
+
+    def  paging_version = "3.0.0"
+
+    implementation("androidx.paging:paging-runtime:$paging_version")
+
+
 }

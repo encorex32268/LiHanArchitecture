@@ -2,12 +2,12 @@ package com.example.lihanarchitecture
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
 import androidx.appcompat.app.AppCompatDelegate
 import androidx.lifecycle.ViewModelProvider
-import androidx.lifecycle.ViewModelProviders
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.lihanarchitecture.databinding.ActivityMainBinding
+import com.example.lihanarchitecture.view.UserAdapter
+import com.example.lihanarchitecture.viewmodel.UserViewModel
 import retrofit2.*
 
 class MainActivity : AppCompatActivity() {

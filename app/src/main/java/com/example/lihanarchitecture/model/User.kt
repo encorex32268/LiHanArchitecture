@@ -1,4 +1,4 @@
-package com.example.lihanarchitecture
+package com.example.lihanarchitecture.model
 
 import com.google.gson.annotations.SerializedName
 

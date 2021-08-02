@@ -1,10 +1,12 @@
-package com.example.lihanarchitecture
+package com.example.lihanarchitecture.viewmodel
 
 import android.app.Application
 import android.util.Log
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
+import com.example.lihanarchitecture.api.IUsersAPI
+import com.example.lihanarchitecture.model.User
 import retrofit2.*
 
 class UserViewModel(application: Application) : AndroidViewModel(application) {
